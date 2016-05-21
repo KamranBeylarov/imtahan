@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="main" style="width:100%;">
+		<div class="container">
+			
+			<div class="Sekil">
+				<h5>MY CAPS MAKER</h5>
+				<img id="sekila" src="1.jpg.jpg">
+				<div class="sekyaz"  >
+				<h3 id="mytext" style="margin-top:2px;">Sur Emioglu Sur</h3>
+				</div>
+			</div>
+			<div class="textin">
+				<form>
+					<input type="text" name="Text" id="deyis" value="Text Elave Edin">
+				</form>
+				<button onclick="text()">Text Deis</button>
+			</div>
+			<div class="sdeish">
+				<input id="sekil" type="text" name="Text" value="Sekil Linkini Deis">
+				<button onclick="sekil()">Sekli Deis</button>
+			</div>
+			<div class="no"></div>
+			<div class="effekt">
+				<button class="effekt" onclick="bbstyle(1)">Effekt1</button>
+				<button class="effekt" onclick="bbstyle(2)">Effekt2</button>
+				<button class="effekt" onclick="bbstyle(3)">Effekt3</button>
+				<button class="effekt" onclick="bbstyle(4)">Effekt4</button>
+			</div>
+			<div class="bosh"></div>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+		
+			function text(){
+
+			var x = document.getElementById("deyis").value;
+    document.getElementById("mytext").innerHTML = x;
+
+}
+
+function sekil(){
+
+	var x = document.getElementById("sekil").value;
+    document.getElementById("sekila").src = x;
+
+}
+// function effekt(a){
+
+// }
+
+	</script>
+
+</body>
+</html>

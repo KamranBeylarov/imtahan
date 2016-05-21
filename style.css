@@ -1,0 +1,93 @@
+*{
+	margin:0 auto;
+}
+h5{
+	color:red;
+	font-size: 20px;
+}
+h3{
+	text-align: center;
+}
+.Sekil{
+	width: 800px;
+	height: 400px;
+	position:relative;
+	overflow:hidden;
+}
+.Sekil .sekyaz{
+	z-index:1;
+	width:800px;
+	position:absolute;
+	bottom:1px;
+	height:35px;
+	color:white;
+	background: red;
+}
+.textin{
+	width: 800px;
+	height: 80px;
+}
+.sdeish{
+	width: 800px;
+	height: 80px;
+	
+}
+.effekt{
+	width: 800px;
+	height: 50px;
+	
+}
+.bosh{
+	width: 800px;
+	height: 200px;
+}
+div img{
+	width: 100%;
+	
+}
+div p{
+	position: absolute;
+}
+.textin form input{
+	width: 800px;
+	height: 40px;
+}
+.textin button{
+	float:right;
+	padding-left:60px;
+	padding-right:60px;
+	background:red;
+	
+	font-size:20px;
+	color:white;
+	border:none;
+}
+.sdeish input{
+	width: 800px;
+	height: 40px;
+}
+.sdeish button{
+	float:right;
+	padding-left:57px;
+	padding-right:57px;
+	background:red;
+	
+	font-size:20px;
+	color:white;
+	border:none;
+}
+.effekt button{
+	float:left;
+	padding-left:60px;
+	padding-right:60px;
+	background:red;
+
+	font-size:20px;
+	color:white;
+	border:none;
+	margin-left: 15px;
+}
+.no{
+	width: 800px;
+	height: 50px;
+}
